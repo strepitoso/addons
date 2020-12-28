@@ -10,24 +10,24 @@
   "map": ["ssl:rw"],
   "options": {
     "lets_encrypt": {
-      "accept_terms": false,
+      "accept_terms": "ture",
       "certfile": "fullchain.pem",
       "keyfile": "privkey.pem"
     },
-    "token": null,
+    "token": "a7f9bc53-a2ec-47e9-86b5-9e594471840f
     "domains": [null],
     "aliases": [],
     "seconds": 300
   },
   "schema": {
     "lets_encrypt": {
-      "accept_terms": "bool",
+      "accept_terms": "ture",
       "certfile": "str",
       "keyfile": "str"
     },
     "ipv4": "str?",
     "ipv6": "str?",
-    "token": "str",
+    "token": "a7f9bc53-a2ec-47e9-86b5-9e594471840f",
     "domains": ["str"],
     "aliases": [
       {"domain": "str", "alias": "str"}
